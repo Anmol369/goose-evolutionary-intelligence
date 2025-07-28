@@ -1,0 +1,26 @@
+# Set default behavior for line endings
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Markdown files  
+*.md text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Text files
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
