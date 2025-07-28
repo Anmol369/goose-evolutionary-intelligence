@@ -14,12 +14,12 @@ from .ecosystem import MinimalViableEcosystem, run_grant_demonstration
 __version__ = "0.1.0"
 __all__ = [
     "FoundationIntelligence",
-    "RealityConstraint", 
+    "RealityConstraint",
     "ProcessIntelligence",
     "EvolutionIntelligence",
     "EvolutionaryPattern",
     "HarmonyIntelligence",
     "JSONPatternStore",
     "MinimalViableEcosystem",
-    "run_grant_demonstration"
+    "run_grant_demonstration",
 ]
