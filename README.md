@@ -1,10 +1,5 @@
 # 🌱 Goose Evolutionary Intelligence
 
-[![Build Status](https://img.shields.io/github/workflow/status/goose-ai/goose-evolutionary-intelligence/CI)](https://github.com/goose-ai/goose-evolutionary-intelligence/actions)
-[![Coverage Status](https://img.shields.io/codecov/c/github/goose-ai/goose-evolutionary-intelligence)](https://codecov.io/gh/goose-ai/goose-evolutionary-intelligence)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI Pre-release](https://img.shields.io/pypi/v/goose-evolutionary-intelligence?label=pip%20install%20goose-evo&color=blue)](https://pypi.org/project/goose-evolutionary-intelligence/)
-
 **Seven-Dimensional Self-Improving AI Agents That Eliminate Verification Bottlenecks**
 
 > *"Every developer spends 90% of their time verifying AI output instead of creating. We're building self-improving agents that learn from your correction patterns, eliminating verification bottlenecks by embedding understanding into generation."*
