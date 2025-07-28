@@ -2,16 +2,16 @@
 Basic Tests for Evolutionary Intelligence Framework
 """
 
-import unittest
-import sys
 import os
-import tempfile
 import shutil
+import sys
+import tempfile
+import unittest
 
 # Add src to path for imports
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
-from goose_evo import (
+from goose_evo import (  # noqa: E402
     FoundationIntelligence,
     ProcessIntelligence,
     EvolutionIntelligence,
