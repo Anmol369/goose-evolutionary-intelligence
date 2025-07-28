@@ -30,7 +30,7 @@ Trees don't have verification bottlenecks because **generation and verification 
 ```bash
 git clone https://github.com/yourusername/goose-evolutionary-intelligence
 cd goose-evolutionary-intelligence
-python src/minimal_viable_ecosystem.py
+python -m goose_evo.cli
 ```
 
 **Expected Output**: 70%+ verification time reduction through learned constraint patterns.
