@@ -1,0 +1,2 @@
+# Core runtime dependencies
+# Currently no external dependencies needed

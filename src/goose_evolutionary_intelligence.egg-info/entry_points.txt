@@ -1,0 +1,2 @@
+[console_scripts]
+goose-evo-demo = goose_evo.ecosystem:run_grant_demonstration
