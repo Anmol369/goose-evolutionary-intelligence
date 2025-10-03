@@ -8,7 +8,20 @@ Contains all seven intelligence dimensions in working form.
 """
 
 import json
+import sys
 from typing import Dict, Any
+
+# Fix Windows console encoding for emoji support
+if sys.platform == 'win32':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except AttributeError:
+        # Python < 3.7, fallback to wrapping
+        import io
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 from .foundation import FoundationIntelligence, RealityConstraint
 from .process import ProcessIntelligence
 from .evolution import EvolutionIntelligence
@@ -169,7 +182,6 @@ ECOSYSTEM EVOLUTION:
 
 def run_grant_demonstration():
     """Complete demo showing verification bottleneck elimination"""
-
     print("🌱 INITIALIZING MINIMAL VIABLE RESONANT ECOSYSTEM...")
     ecosystem = MinimalViableEcosystem()
 
